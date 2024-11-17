@@ -6,5 +6,6 @@ To-Do List:
 - Led for feedback
 - Numpad for back-up
 - UUID and checksums
+- test
 
 '''
