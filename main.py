@@ -8,4 +8,7 @@ To-Do List:
 - UUID and checksums
 - test
 
+git config --global user.name "louboi"
+git config --global user.email "louisjeanes4@protonmail.com"
+
 '''
