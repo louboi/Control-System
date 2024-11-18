@@ -1,6 +1,6 @@
 001 --> Username or Password is longer than 10 characters
 002 --> Username or Password has not been entered
-003 --> 
+003 --> Modulos of UUID is not a number
 004 --> 
 005 --> 
 006 --> 

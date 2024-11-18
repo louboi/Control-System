@@ -50,17 +50,6 @@ def checksum_gen(UUID, Checksum, result, x, y, z):
     Checksum = str(y)
     print(Checksum)
 
-def check(username, password, valid):
-    cur.execute("SELECT UUID FROM login WHERE Username = ?", (username,))
-    z = cur.fetchall()
-    if password == str(z[0][0]):
-        print(str(z[0][0]))
-        print("You passed!")
-        return True
-    else:
-        print(str(z[0][0]))
-        print("The KGB got you, you no longer exist!! :)")
-        return False    
 
 # Get the user to make a Username and Password
 username = str(input("Please make a Username (less than 10 characters): "))
@@ -70,4 +59,3 @@ password = str(input("Please make a Password (less than 10 characters): "))
 
 check_validity(username, password) # Validate the Username and Password
 UUID_gen(password, username, UUID, result) # Generate the UUID
-checksum_gen(UUID, Checksum, result, x, y, z) # Generate a checksum
