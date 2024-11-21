@@ -2,7 +2,7 @@
 import sqlite3
 
 # Connect to the database and get it ready to be used
-con = sqlite3.connect("Secrets.db")
+con = sqlite3.connect("Code/Secrets.db")
 cur = con.cursor()
 
 #------------------------------------------------------------------------------------------------
