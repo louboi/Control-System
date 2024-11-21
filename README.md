@@ -68,14 +68,6 @@ Run the script by navigating to the folder the scripts sit in and typing:
   sudo chmod +x Initial_Setup.sh
   sudo ./Initial_Setup.sh
 ```
-### Part 4 - Running the Main Program
-```bash
-  git clone https://github.com/louboi/Control-System.git
-```
-### Part 5
-```bash
-  git clone https://github.com/louboi/Control-System.git
-```
   
 ## Roadmap
 
