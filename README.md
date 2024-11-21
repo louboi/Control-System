@@ -8,7 +8,9 @@ This is a fully customisable control-system for managing door access.
 
 ## Demo
 
-Insert gif or link to demo
+#### Example Database of users
+![Database Example](https://github.com/user-attachments/assets/7c3aa356-296d-4569-a39f-295808284abe)
+
 
 ## Prerequisites:
 
