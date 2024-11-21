@@ -1,13 +1,40 @@
-
 # Control-System
 
 This is a fully customisable control-system for managing door access.
-
 
 ## Authors
 
 - [@louboi](https://github.com/louboi)
 
+## Demo
+
+Insert gif or link to demo
+
+## Prerequisites:
+
+### Control Node:
+- Any system able to run linux
+    - I Used a Raspberry Pi 4B
+- Debian
+    - I use raspberry pi OS lite 64 bit- Based on Debian 12
+- Sudo Privilages
+- Python
+    - I used 3.13
+- Bash
+- An internet connection (or way of transfering files to the system) for installation
+- A connection to the Remote nodes via a network switch or router (For the deployment)
+
+### Remote Node:
+- Any system able to run linux
+    - I Used a Raspberry Pi 2B
+- Debian
+    - I use raspberry pi OS lite 32 bit- Based on Debian 12
+- Sudo Privilages
+- Python
+    - I used 3.13
+- Bash
+- An internet connection (or way of transfering files to the system) for installation
+- A connection to the Remote nodes via a network switch or router (For the deployment)
 
 ## Installation
 ### Part 1 - Pre-Event set up
@@ -47,4 +74,9 @@ Run the script by navigating to the folder the scripts sit in and typing:
 ```bash
   git clone https://github.com/louboi/Control-System.git
 ```
-    
+  
+## Roadmap
+
+- Additional browser support
+
+- Add more integrations
