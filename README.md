@@ -77,6 +77,28 @@ Run the script by navigating to the folder the scripts sit in and typing:
   
 ## Roadmap
 
-- Additional browser support
+- RFID Reader implementation
+- Door lock release
+- Led for feedback
+- Numpad for back-up
+- ~~Create UUID~~
 
-- Add more integrations
+## Appendix
+
+- ASCII Table:
+    - https://www.ascii-code.com/
+
+## Error Code Reference
+
+| Code  | Name     | Description                                         | Solution                                                  |
+| :---- | :------- | :-------------------------------------------------- | :-------------------------------------------------------- |
+| `001` | `Length` | `Username or Password is longer than 10 characters` | `Shorten the length of your Username or Password`         |
+| `002` | `Entry`  | `Username or Password has not been entered`         | `Enter a Username and Password`                           |
+| `003` | `Mod`    | `Modulo of UUID is not a number`                    | `Try clearing the database and restarting the program`    |
+| `004` | `string` | `string`                                            | `string`                                                  |
+| `005` | `string` | `string`                                            | `string`                                                  |
+| `006` | `string` | `string`                                            | `string`                                                  | 
+| `007` | `string` | `string`                                            | `string`                                                  |
+| `008` | `string` | `string`                                            | `string`                                                  |
+| `009` | `string` | `string`                                            | `string`                                                  |
+| `010` | `string` | `string`                                            | `string`                                                  |
