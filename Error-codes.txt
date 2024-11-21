@@ -1,3 +1,0 @@
-Username or Password is longer than 10 characters
-Username or Password has not been entered
-Modulos of UUID is not a number
