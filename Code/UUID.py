@@ -3,7 +3,7 @@ import sqlite3 # Import the SQLite Function used to manage the database
 import math
 
 # Connect to the database
-con = sqlite3.connect("Secrets.db")
+con = sqlite3.connect("Code/Secrets.db")
 cur = con.cursor()
 
 # Initiallise global variables
