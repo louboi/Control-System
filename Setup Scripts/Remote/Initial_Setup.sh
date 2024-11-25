@@ -11,8 +11,12 @@ echo "If you need to correct the IP address then just run the Reset_IP.sh script
 # Get the user to change the config
 echo "Please enable remote GPIO either through the setting panel or by running sudo raspi-config"
 
-# Install the pigpio library for use in python
-sudo apt install pigpio
+# Ensure pip is installed
+sudo python -m ensurepip --upgrade
+
+# Install the required libraries for use in python
+pip install pigpio
+pip install RPi.GPIO
 
 # enable and start the pigpoio service on system start-up
 sudo systemctl enable pigpio -n $IP
