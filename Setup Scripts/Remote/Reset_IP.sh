@@ -9,4 +9,4 @@ read IP
 echo "If you need to correct the IP address then just re-run the Reset_IP.sh script"
 
 # enable and start the pigpoio service on system start-up
-sudo systemctl enable pigpio -n $IP
+sudo systemctl reload pigpio -n $IP
